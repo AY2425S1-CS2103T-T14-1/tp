@@ -8,6 +8,11 @@ public class Remark {
 
     public final String value;
 
+    /**
+     * Constructs a {@code Remark} object with the specified remark.
+     *
+     * @param remark the remark as a String
+     */
     public Remark(String remark) {
         requireNonNull(remark);
         value = remark;

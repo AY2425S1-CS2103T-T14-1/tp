@@ -96,6 +96,13 @@ public class ParserUtil {
         return new Email(trimmedEmail);
     }
 
+    /**
+     * Parses a {@code String} remark and returns a {@code Remark} object.
+     * Leading and trailing whitespace will be trimmed.
+     *
+     * @param remark the remark as a String to be parsed
+     * @return a {@code Remark} object containing the parsed remark
+     */
     public static Remark parseRemark(String remark) {
         requireNonNull(remark);
         String trimmedRemark = remark.trim();
