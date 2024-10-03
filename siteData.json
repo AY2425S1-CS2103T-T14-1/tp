@@ -7,8 +7,7 @@
         "about-us": "About Us",
         "project-team": "Project team",
         "chengke": "Chengke",
-        "john-doe": "John Doe",
-        "jane-doe": "Jane Doe",
+        "justin-choo": "Justin Choo",
         "jeriel-chan": "Jeriel Chan",
         "rithik-lenin": "Rithik Lenin",
         "toh-yi-hui": "Toh Yi Hui"
@@ -140,6 +139,14 @@
       "title": "John Doe's Project Portfolio Page",
       "headings": {
         "project-addressbook-level-3": "Project: AddressBook Level 3"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "team/justincjr.md",
+      "title": "Justin Choo's Project Portfolio Page",
+      "headings": {
+        "project-prudy": "Project: Prudy"
       },
       "headingKeywords": {}
     },
