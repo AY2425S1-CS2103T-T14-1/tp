@@ -1,10 +1,16 @@
 package seedu.address.logic.commands;
 
+import static java.util.Objects.requireNonNull;
 import static seedu.address.commons.util.CollectionUtil.requireAllNonNull;
+import static seedu.address.model.Model.PREDICATE_SHOW_ALL_PERSONS;
+
+import java.util.List;
 
 import seedu.address.commons.core.index.Index;
+import seedu.address.logic.Messages;
 import seedu.address.logic.commands.exceptions.CommandException;
 import seedu.address.model.Model;
+import seedu.address.model.person.Person;
 import seedu.address.model.policy.PolicyMap;
 
 /**
@@ -39,27 +45,20 @@ public class UpdatePolicyCommand extends Command {
 
     @Override
     public CommandResult execute(Model model) throws CommandException {
-        //        // Retrieve the client based on the index
-        //        List<Person> lastShownList = model.getFilteredPersonList();
-        //        if (index.getZeroBased() >= lastShownList.size()) {
-        //            throw new CommandException(Messages.MESSAGE_INVALID_PERSON_DISPLAYED_INDEX);
-        //        }
-        //
-        //        Person personToUpdate = lastShownList.get(index.getZeroBased());
-        //
-        //        // Check if the person has the policy, if not, throw an exception
-        //        if (!personToUpdate.getPolicies().contains(policies)) {
-        //            throw new CommandException(MESSAGE_POLICY_NOT_FOUND);
-        //        }
-        //
-        //        // Update the policy in the person's policy list
-        //        personToUpdate.getPolicies().update(policies);
-        //
-        //        // Update the model with the new person details
-        //        model.setPerson(personToUpdate);
-        //
-        //        return new CommandResult(String.format(MESSAGE_ARGUMENTS, index.getOneBased(), policies));
-        throw new CommandException(String.format(MESSAGE_ARGUMENTS, index.getOneBased(), policies.toString()));
+        requireNonNull(model);
+        List<Person> lastShownList = model.getFilteredPersonList();
+        if (index.getZeroBased() >= lastShownList.size()) {
+            throw new CommandException(Messages.MESSAGE_INVALID_PERSON_DISPLAYED_INDEX);
+        }
+        //update policymap
+        Person personToEdit = lastShownList.get(index.getZeroBased());
+        Person editedPerson = new Person(
+                personToEdit.getName(), personToEdit.getPhone(), personToEdit.getEmail(),
+                personToEdit.getAddress(), personToEdit.getTags(), policies);
+
+        model.setPerson(personToEdit, editedPerson);
+        model.updateFilteredPersonList(PREDICATE_SHOW_ALL_PERSONS);
+        return new CommandResult(String.format(MESSAGE_ARGUMENTS, index.getOneBased(), policies));
     }
 
     @Override
