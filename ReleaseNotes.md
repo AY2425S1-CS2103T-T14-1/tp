@@ -7,7 +7,7 @@ We are thrilled to announce the release of **Prudy v1.0**, an all-in-one contact
 ## New Features:
 
 ### 1. Policy Management
-- Easily manage a wide variety of client policies, including Life, Health, and Education policies. Each policy contains premium anount, coverage amount and expiry date.
+- Easily manage a wide variety of client policies, including Life, Health, and Education policies. Each policy contains premium amount, coverage amount and expiry date.
 - Add or remove policies directly within a client’s profile for seamless updates.
 - Policy details are displayed in a clean and organized format, making it simple to manage multiple policies for each client.
 
