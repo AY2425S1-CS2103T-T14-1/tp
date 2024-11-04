@@ -136,6 +136,8 @@
         "5-3-4-listing-all-policies-list-policies": "5.3.4 Listing All Policies: list-policies",
         "5-3-5-listing-expiring-policies-list-expiring-policies": "5.3.5 Listing Expiring Policies: list-expiring-policies",
         "5-4-claims-management-commands": "5.4 Claims Management Commands",
+        "5-4-2-deleting-a-claim-delete-claim": "5.4.2 Deleting a Claim: delete-claim",
+        "5-4-3-editing-a-claim-edit-claim": "5.4.3 Editing a Claim: edit-claim",
         "6-faq": "6. FAQ",
         "7-known-issues": "7. Known issues",
         "8-command-summary": "8. Command summary"
