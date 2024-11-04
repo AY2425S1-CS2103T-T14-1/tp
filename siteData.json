@@ -133,7 +133,7 @@
         "5-2-1-adding-a-client-add": "5.2.1 Adding a Client: add",
         "5-2-2-listing-all-clients-list": "5.2.2 Listing All Clients: list",
         "5-2-3-filtering-clients-find-client": "5.2.3 Filtering Clients: find-client",
-        "5-2-4-editing-a-client-s-details-edit": "5.2.4 Editing a Client’s Details: edit",
+        "5-2-4-editing-a-client-edit": "5.2.4 Editing a Client: edit",
         "5-2-5-deleting-a-client-delete": "5.2.5 Deleting a Client: delete",
         "5-3-policy-management-commands": "5.3 Policy Management Commands",
         "5-3-1-adding-a-policy-add-policy": "5.3.1 Adding a Policy: add-policy",
@@ -144,6 +144,7 @@
         "5-4-claims-management-commands": "5.4 Claims Management Commands",
         "5-4-2-deleting-a-claim-delete-claim": "5.4.2 Deleting a Claim: delete-claim",
         "5-4-3-editing-a-claim-edit-claim": "5.4.3 Editing a Claim: edit-claim",
+        "5-4-4-listing-all-claims-list-claims": "5.4.4 Listing All Claims: list-claims",
         "6-faq": "6. FAQ",
         "7-known-issues": "7. Known issues",
         "8-command-summary": "8. Command summary"
