@@ -62,8 +62,14 @@
         "glossary": "Glossary",
         "appendix-instructions-for-manual-testing": "Appendix: Instructions for Manual Testing",
         "launch-and-shutdown": "Launch and shutdown",
-        "deleting-a-client": "Deleting a client",
-        "saving-data": "Saving data"
+        "saving-window-preferences": "Saving Window Preferences",
+        "client-management": "Client Management",
+        "policy-and-claim-management": "Policy and Claim Management",
+        "claim-management": "Claim Management",
+        "data-persistence": "Data Persistence",
+        "handling-missing-corrupted-data-files": "Handling Missing/Corrupted Data Files",
+        "error-handling-and-edge-cases": "Error Handling and Edge Cases",
+        "exploratory-testing-tips": "Exploratory Testing Tips"
       },
       "headingKeywords": {}
     },
