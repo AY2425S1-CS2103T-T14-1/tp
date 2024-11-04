@@ -42,7 +42,7 @@
       "headings": {
         "prudy-developer-guide": "Prudy Developer Guide",
         "acknowledgements": "Acknowledgements",
-        "setting-up-getting-started": "Setting up, getting started",
+        "setting-up-getting-started": "Setting Up, Getting Started",
         "design": "Design",
         "architecture": "Architecture",
         "ui-component": "UI component",
@@ -53,14 +53,14 @@
         "implementation": "Implementation",
         "proposed-undo-redo-feature": "[Proposed] Undo/redo feature",
         "proposed-data-archiving": "[Proposed] Data archiving",
-        "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
+        "documentation-logging-testing-configuration-dev-ops": "Documentation, Logging, Testing, Configuration, Dev-Ops",
         "appendix-requirements": "Appendix: Requirements",
         "product-scope": "Product scope",
         "user-stories": "User stories",
         "use-cases": "Use cases",
         "non-functional-requirements": "Non-Functional Requirements",
         "glossary": "Glossary",
-        "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
+        "appendix-instructions-for-manual-testing": "Appendix: Instructions for Manual Testing",
         "launch-and-shutdown": "Launch and shutdown",
         "deleting-a-client": "Deleting a client",
         "saving-data": "Saving data"
@@ -85,7 +85,7 @@
     },
     {
       "src": "SettingUp.md",
-      "title": "Setting up and getting started",
+      "title": "Setting Up and Getting Started",
       "headings": {
         "setting-up-and-getting-started": "Setting up and getting started",
         "setting-up-the-project-in-your-computer": "Setting up the project in your computer",
